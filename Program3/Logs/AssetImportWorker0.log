@@ -15,7 +15,7 @@ C:/Unity Projects/351-Project-3/351-Project-3/Program3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56328
+57247
 Successfully changed project path to: C:/Unity Projects/351-Project-3/351-Project-3/Program3
 C:/Unity Projects/351-Project-3/351-Project-3/Program3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Unity Projects/351-Project-3/351-Project-3/Program3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 116.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 157.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009076 seconds.
+Registered in 0.008311 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 153.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
+- Completed reload, in  0.936 seconds
 Domain Reload Profiling:
-	ReloadAssembly (938ms)
+	ReloadAssembly (937ms)
 		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (662ms)
+		EndReloadAssembly (659ms)
 			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (387ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (395ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (153ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009098 seconds.
+Registered in 0.014008 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 148.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.703 seconds
+- Completed reload, in  1.864 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1704ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (1865ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1293ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1513ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (409ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (119ms)
-			SetupLoadedEditorAssemblies (526ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (784ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (329ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3249 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (57.4 KB). Loaded Objects now: 3708.
-Memory consumption went from 113.7 MB to 113.7 MB.
-Total: 5.988400 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.307900 ms MarkObjects: 5.235100 ms  DeleteObjects: 0.078700 ms)
+Unloading 5018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5473.
+Memory consumption went from 196.9 MB to 196.2 MB.
+Total: 6.227400 ms (FindLiveObjects: 0.715900 ms CreateObjectMapping: 0.591500 ms MarkObjects: 4.476000 ms  DeleteObjects: 0.441900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,124 +160,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1666217.618226 seconds.
-  path: Assets/Scenes/WesternTown.unity
-  artifactKey: Guid(b02577a54950ef949a2fcd9d37a1d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/WesternTown.unity using Guid(b02577a54950ef949a2fcd9d37a1d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4adac75400566d722b762a1ee1ff906') in 0.018337 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.139483 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 220.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.891 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1892ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1552ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (862ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (221ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (6.1 MB). Loaded Objects now: 5354.
-Memory consumption went from 189.2 MB to 183.1 MB.
-Total: 8.520200 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.443000 ms MarkObjects: 4.434300 ms  DeleteObjects: 3.186500 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in C:\Unity Projects\351-Project-3\351-Project-3\Program3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1658.696691 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.045713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.436056 seconds.
+  Time since last request: 1678539.625270 seconds.
   path: Assets/New Universal Render Pipeline Asset.asset
   artifactKey: Guid(0a82dd832163cf14fbf30e06b0823e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Universal Render Pipeline Asset.asset using Guid(0a82dd832163cf14fbf30e06b0823e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297903c694d6fd3207def7d0a48ae2c0') in 0.159624 seconds 
+Start importing Assets/New Universal Render Pipeline Asset.asset using Guid(0a82dd832163cf14fbf30e06b0823e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bd6bab1d384f70808d9be27e5842dc') in 0.113604 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.499165 seconds.
-  path: Assets/Settings/URP-Balanced-Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3b643dd8250ee901a01ee80ff5d07d') in 0.203325 seconds 
+  Time since last request: 162.405672 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(417a9dbddf4a35f44afd5773bda38d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(417a9dbddf4a35f44afd5773bda38d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb75764e859a06f1f23e7a02dbcb254') in 0.018263 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Settings/WesternTownProfile.asset
-  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/WesternTownProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ecb4d9afe0acbc19734ff165b5f7b') in 0.036492 seconds 
+  Time since last request: 48.114334 seconds.
+  path: Assets/Animations/Action
+  artifactKey: Guid(99f9c1ac8615ce84597695218d688fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action using Guid(99f9c1ac8615ce84597695218d688fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69b7d689d125e864cec2b3cea3410f7') in 0.030321 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Settings/URP-Performant-Renderer.asset
-  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1851fb5d14fdf4fbaae77cf6351644c') in 0.086763 seconds 
+  Time since last request: 0.148074 seconds.
+  path: Assets/Animations/Action/Anim_Regular@cast1.FBX
+  artifactKey: Guid(c19677c612eb9fe4ab9e42d041a64e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@cast1.FBX using Guid(c19677c612eb9fe4ab9e42d041a64e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9863b6286d3e61572b28e51f145ea0b') in 0.332245 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Settings/URP-Performant.asset
-  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487870a79fa3f7c27236b295a642ea4f') in 0.091066 seconds 
+  Time since last request: 0.000060 seconds.
+  path: Assets/Animations/Action/Anim_Regular@hit.FBX
+  artifactKey: Guid(df09a45051fc60941863d16a0e4886d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@hit.FBX using Guid(df09a45051fc60941863d16a0e4886d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8adef2797d360cf6f76cd68d2386f5') in 4.293212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animations/Action/Anim_Regular@stunned.FBX
+  artifactKey: Guid(a743f84e2b11c2d4b8e03426aa1428ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@stunned.FBX using Guid(a743f84e2b11c2d4b8e03426aa1428ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccd5a6973131754d9b49799f3229f8e') in 0.058578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animations/Action/Anim_Regular@pickup.FBX
+  artifactKey: Guid(2a068e137cb792c44ab25bd56b017847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@pickup.FBX using Guid(2a068e137cb792c44ab25bd56b017847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36afede207d4804569359feb63a46f3') in 0.116473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animations/Action/Anim_Regular@goodbye.FBX
+  artifactKey: Guid(0510250709cacfc4aa7c631dad37a00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@goodbye.FBX using Guid(0510250709cacfc4aa7c631dad37a00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e9e654813fa7aaf0a58a3d17281d11') in 0.077926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Animations/Action/Anim_Regular@salute.FBX
+  artifactKey: Guid(a7508948607060e498f25006b176cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@salute.FBX using Guid(a7508948607060e498f25006b176cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5281f866ebcf80cacbeb81bb1661f84') in 0.069730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Animations/Action/Anim_Regular@crouch.fbx
+  artifactKey: Guid(3f5382032bf9459429430fb7715f8bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Action/Anim_Regular@crouch.fbx using Guid(3f5382032bf9459429430fb7715f8bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc01715cab2e0404077a022261a87ab') in 0.076043 seconds 
