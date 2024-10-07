@@ -8,7 +8,7 @@ Implementation:
 
 This project consists of all four required features
 (Cutscene Cameras, Player can Kick, Shoot at Targets, and
-Dynamic Soundtrack) in addition to the choice feature, Enemies 
+Dynamic Soundtrack) in addition to the choice feature, Bandits 
 Shoot Back, as outlined by the rubric. 
 
 Cutscene cameras were handled using Unity's built in
@@ -21,7 +21,7 @@ bandit NPCs or exploding barrels, effects for which are sourced
 from Unity's Particle Pack provided for free from the Unity asset 
 store, and adjusts values/plays animations accordingly. Dynamic 
 Soundtrack uses provided sounds within the sample project and is 
-handled in editor. Enemies Shoot Back was implemented using the
+handled in editor. Bandits Shoot Back was implemented using the
 same bullet prefab used in Shoot at Targets, with additional
 scripting to control for enemies turning, locating, and spotting
 the player character before taking a shot, including statements
