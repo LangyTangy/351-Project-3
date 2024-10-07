@@ -6,7 +6,7 @@ October 6, 2024
 
 Implementation:
 
-This project consists of all four requirement features
+This project consists of all four required features
 (Cutscene Cameras, Player can Kick, Shoot at Targets, and
 Dynamic Soundtrack) in addition to the choice feature, Enemies 
 Shoot Back, as outlined by the rubric. 
