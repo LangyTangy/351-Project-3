@@ -1,3 +1,47 @@
+Atticus Birkett, Langston Campbell, Andrew Cota, Carlo Scarpa
+______________________________________________________
+Group 6 Assignment 3 Submission
+College of Information Sciences, University of Arizona
+October 6, 2024
+
+Implementation:
+
+This project consists of all four requirement features
+(Cutscene Cameras, Player can Kick, Shoot at Targets, and
+Dynamic Soundtrack) in addition to the choice feature, Enemies 
+Shoot Back, as outlined by the rubric. 
+
+Cutscene cameras were handled using Unity's built in
+cinemachine. Player can Kick was animated using provided
+kick animations, expanding upon the player's base
+animation state machine. Shoot at Targets was implemented
+using a self-made bullet prefab, instantiated and deleted by
+a self-written script that tracks bullet collisions with
+bandit NPCs or exploding barrels, effects for which are sourced 
+from Unity's Particle Pack provided for free from the Unity asset 
+store, and adjusts values/plays animations accordingly. Dynamic 
+Soundtrack uses provided sounds within the sample project and is 
+handled in editor. Enemies Shoot Back was implemented using the
+same bullet prefab used in Shoot at Targets, with additional
+scripting to control for enemies turning, locating, and spotting
+the player character before taking a shot, including statements
+controling for their y-axis rotation, firing a raycast, and then
+offsetting their aim to make it easy for the player to dodge.
+
+Assets Used:
+
+- Particle Pack by Unity Technologies
+
+Made using Unity's Built-In Render Pipeline.
+
+Credits:
+
+- Scripting, modeling, texturing, animating, designing, 
+  and compliling done by Langston Campbell
+- Storyboarding, designing, and readme file writing done
+  by Atticus Birkett
+- Additional assistance given by Andrew Cota &
+  Carlo Scarpa
 ______________________________________________________
 Program 3 Template (Starter Code) - v. 1.0
 School of Information, University of Arizona 
